@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-lodash-to-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/lib/rules/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adstate/eslint-plugin-lodash-to-native.git"
+  },
+  "author": "felix.khodakovskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adstate/eslint-plugin-lodash-to-native/issues"
+  },
+  "homepage": "https://github.com/adstate/eslint-plugin-lodash-to-native#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "mocha": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}
